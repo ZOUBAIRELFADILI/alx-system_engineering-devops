@@ -1,0 +1,3 @@
+#!/bin/bash
+line=$(sed -n '3p' iacta)
+echo "$line"
